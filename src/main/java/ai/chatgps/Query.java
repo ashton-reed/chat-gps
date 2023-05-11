@@ -14,8 +14,7 @@ class Message{
     public String content;
 }
 
-@Data
-public class Root{
+public class Query {
     public String id;
     public String object;
     public int created;

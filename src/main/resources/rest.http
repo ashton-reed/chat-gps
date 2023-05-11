@@ -1,0 +1,16 @@
+### testing
+POST http://localhost:8080/chat
+Content-Type: application/json
+
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is your name"
+    }
+  ]
+}
+
+### starting
+GET http://localhost:8080/start

@@ -1,5 +1,9 @@
 package ai.chatgps;
 
-public class Root {
-    Query query;
+import java.util.ArrayList;
+
+
+public class InputModel {
+    public String model;
+    public ArrayList<Message> messages;
 }
